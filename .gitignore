@@ -1,0 +1,23 @@
+# Ignore local development settings
+venv/
+
+# Ignore database files
+*.db
+*.sqlite3
+
+# Ignore static files (assuming they are collected to a separate directory)
+/static/
+
+# Ignore media uploads (assuming they are stored in a separate directory)
+/media/
+
+
+# Ignore IDE-specific files
+.vscode/
+
+
+# Ignore cache and temporary files
+__pycache__/
+*.pyo
+*.swp
+*~
